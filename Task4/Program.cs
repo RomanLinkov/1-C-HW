@@ -1,4 +1,5 @@
-﻿Console.WriteLine("Салам алейкум, брат!");
+﻿Console.Clear();
+Console.WriteLine("Салам алейкум, брат!");
 Console.WriteLine("Введи вервое целое число, брат:");
 int NumberA = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введи второе целое число, брат:");
