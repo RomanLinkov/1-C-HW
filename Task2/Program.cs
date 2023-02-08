@@ -6,11 +6,15 @@ int NumberB = Convert.ToInt32(Console.ReadLine());
 
 if(NumberA > NumberB)
 {
-    Console.Write("Наибольшее число: ", NumberA);
+    Console.Write("Большее число: ", NumberA);
     Console.WriteLine(NumberA);
+    Console.Write("Меньшее число: ", NumberB);
+    Console.WriteLine(NumberB);
 }
 else
 {
-    Console.Write("Наибольшее число: ");
+    Console.Write("Большее число: ");
     Console.WriteLine(NumberB);
+    Console.Write("Меньшее число: ", NumberA);
+    Console.WriteLine(NumberA);
 }
